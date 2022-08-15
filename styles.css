@@ -1,0 +1,91 @@
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: sans-serif;
+  color: #1A1C1A;
+  box-sizing: border-box;
+}
+
+main {
+  background-image: linear-gradient(#f6dcbd, #f9e8d3);
+  background-color: #f6dcbd;
+  padding: 0 5px;
+}
+
+header {
+  padding: 20px 0;
+}
+
+h1,
+h2,
+figcaption {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.8rem;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.img-div {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#image {
+  display: block;  
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 7px;
+}
+
+figcaption {
+  font-size: 1.6rem;
+  padding: 15px;
+}
+
+.tribute-info {
+  display: block;
+  border: none;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.tribute-info legend {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.tribute-info ul {
+  font-size: 1.5rem;
+  text-align: left;
+  padding: 0 10%;
+}
+
+.tribute-info li {
+  padding: 10px 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+address {
+  font-size: 1.6rem;
+  padding: 30px;
+  text-align: center;
+}
